@@ -1,5 +1,6 @@
 import styles from "./style.js"
 import {Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA } from './components'
+import Footer from "./components/Footer.jsx"
 const App = () => { 
   return (
     <div className="bg-primary w-full overflow-hidden">
@@ -24,6 +25,7 @@ const App = () => {
         <Testimonials />
         <Clients />
         <CTA />
+        <Footer />
         </div>
       </div>
     </div>
